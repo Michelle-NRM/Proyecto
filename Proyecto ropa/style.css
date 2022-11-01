@@ -1,0 +1,133 @@
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.menu-advertencia {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 25px;
+  padding-top: 8px;
+  font-size: 11px;
+}
+
+.menu-l li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 8px;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+.phone {
+  padding-left: 400px;
+  border-right: 1px solid #eee;
+  padding-right: 5px;
+}
+.email {
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+.cuenta {
+  text-align: right;
+  padding-left: 650px;
+  border-right: 1px solid #eee;
+  padding-right: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eee;
+  border-bottom: 2px solid #eee;
+  height: 120px;
+}
+
+.lista {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+
+.lista li a {
+  padding-left: 5px;
+  padding-right: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.sublista li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.sublista {
+  position: absolute;
+  display: none;
+}
+
+.sublista li a {
+  display: block;
+  font-size: 14px;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+
+.lista li:hover .sublista {
+  display: block;
+}
+
+.logo {
+  display: block;
+  width: 240px;
+  height: 95px;
+  margin-right: 20px;
+}
+.search {
+  position: relative;
+  padding-left: 32px;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  box-shadow: inset 0px 1px 3px #eee;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.buscador {
+  border-radius: 20px;
+  border: none;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.lupa {
+  height: 15px;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+}
+
+.carrito {
+  height: 30px;
+  right: 15px;
+  padding-left: 30px;
+}
